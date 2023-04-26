@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Pastry Site</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Pastry website">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Playfair+Display:wght@400;600;700&family=Raleway:ital,wght@0,200;0,300;0,500;0,700;1,300;1,400;1,700&family=Zen+Kaku+Gothic+Antique:wght@500&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Puppies+Play&display=swap" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet" />
+	<link href="styles/style.css" rel="stylesheet" />
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+
+		header {
+			background-image: url('https://via.placeholder.com/1500x400');
+			background-size: cover;
+			background-position: center;
+			height: 400px;
+			position: relative;
+			color: #fff;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		header h1 {
+			font-size: 3em;
+			margin: 0;
+			padding: 0;
+		}
+
+		header p {
+			font-size: 1.5em;
+			margin: 0;
+			padding: 0;
+			margin-top: 20px;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.container .food-item {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 50px;
+		}
+
+		.container .food-item img {
+			width: 100%;
+			max-width: 500px;
+			height: auto;
+		}
+
+		.container .food-item h2 {
+			margin: 20px 0 10px 0;
+			font-size: 2em;
+		}
+
+		.container .food-item p {
+			margin: 0;
+			padding: 0;
+			font-size: 1.2em;
+			line-height: 1.5;
+			text-align: center;
+		}
+
+		.container .food-item .author {
+			margin-top: 20px;
+			font-size: 1.2em;
+			text-align: center;
+		}
+
+		.container .food-item .author span {
+			font-weight: bold;
+		}
+
+		.container .food-item .details {
+			margin-top: 20px;
+			font-size: 1.2em;
+			text-align: center;
+		}
+
+		.container .food-item .details span {
+			font-weight: bold;
+		}
+
+		@media (max-width: 768px) {
+			.container .food-item {
+				padding: 20px;
+			}
+
+			header {
+				height: 300px;
+			}
+
+			header h1 {
+				font-size: 2em;
+			}
+
+			header p {
+				font-size: 1em;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<div class="root">
+		<header class="header-class">
+			<nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+				<div class="container-fluid">
+					<a class="navbar-brand brand navbar-title" href="#">gustoso</a>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">Welcome</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">~</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Menu</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">~</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Reservations</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">~</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">News</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">~</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link active" href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+					<div class="navbar-brand icons"><i class="bi bi-twitter"></i></div>
+					<div class="navbar-brand icons"><i class="bi bi-facebook"></i></div>
+					<div class="navbar-brand icons"><i class="bi bi-instagram"></i></div>
+				</div>
+			</nav>
+		</header>
+		<section class="section-style">
+			<h1 class="title">Pastry With Love</h1>
+			<h4 class="contents">We are bringing you fresh ingredient every day in ways you can't resist</h4>
+			<button type="button" class="btn btn-dark">Our Menu</button>
+		</section>
+	</div>
+	<section class="body-style">
+		<div>
+			<div class="body-title">
+				<h2 class="body-title1">The Jibarito Sandwitch</h2>
+				<h4 class="body-text">The Best Sandwitch You have ever tested</h4>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="footer-style">
+			<ul class="list navbar-nav footer-items">
+				<li class="nav-item">
+					<p class="mb-0">Our Menu</p>
+				</li>
+				<li class="nav-item">
+					<p class="mb-0">~</p>
+				</li>
+				<li class="nav-item">
+					<p class="mb-0">gallery</p>
+				</li>
+				<li class="nav-item">
+					<p class="mb-0">~</p>
+				</li>
+				<li class="nav-item">
+					<p class="mb-0">culture</p>
+				</li>
+			</ul>
+			<div>
+				<h3 class="footer-brand">gustose</h3>
+			</div>
+			<ul class="list navbar-nav align-items-center footer-items">
+				<li class="nav-item">
+					<p class="mb-0">Events</p>
+				</li>
+				<li class="nav-item">
+					<p class="mb-0">~</p>
+				</li>
+				<li class="nav-item">
+					<p class="mb-0">catering</p>
+				</li>
+				<li class="nav-item">
+					<p class="mb-0">~</p>
+				</li>
+				<li class="nav-item">
+					<p class="mb-0">visit us</p>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+	<!-- <script src="js/bootstrap.bundle.js"></script> -->
+</body>
+
+</html>
